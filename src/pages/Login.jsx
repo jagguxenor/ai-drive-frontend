@@ -3,7 +3,7 @@ import "../App.css";
 export default function Login() {
 
   const handleLogin = () => {
-    window.location.href = "http://localhost:8080/oauth2/authorization/google";
+    window.location.href = "https://ai-drive-agent-clean-5.onrender.com/oauth2/authorization/google";
   };
 
   return (
